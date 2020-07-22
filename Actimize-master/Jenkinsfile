@@ -20,6 +20,7 @@ stage('TF Apply') {
       steps {
         
           sh '/usr/bin/terraform apply plan'
+          sh '/usr/bin/terraform destroy'
         
       }
     }
