@@ -44,6 +44,11 @@ variable "key_path" {
   default = "./Actimize-master/Customers/HSBC/actimize.pub"
 }
 
+variable "region" {
+  default = "eu-west-2"
+}
+
+
 # variable "Softwares_list"{
 #   type = "list"
 # }
